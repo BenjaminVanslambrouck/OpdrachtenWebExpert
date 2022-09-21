@@ -9,6 +9,7 @@ if (uitkomst === NaN){
     alert(uitkomst);
 }
 
+
 /*if (btw === 0){
 
 }

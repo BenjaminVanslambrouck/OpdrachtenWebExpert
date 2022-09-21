@@ -1,7 +1,15 @@
 const zin = ["Dit is mijn eerste zin", "Dit is mijn tweede zin", "Dit is mijn derde zin"];
 
-console.log(zin);
+zin.forEach((zinnen) =>{
+    console.log(zinnen);
+});
 
 alert("De lengte van de zin is " + zin.length);
 
-console.log(zin.splice(1,1));
+for (let i = 0; i < zin.length; i++){
+    if (zin[i] === "Dit is mijn tweede zin"){
+        zin.splice(i,1);
+    }
+}
+console.log(zin);
+
