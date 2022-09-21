@@ -13,3 +13,6 @@ else if (btw === 12){
 else if(btw === 21){
 
 }
+else {
+    alert('er is geen juiste btw gegeven!');
+}
